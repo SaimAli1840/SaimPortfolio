@@ -225,7 +225,9 @@ project-tile a:hover {
 
 @media (max-width: 580px) {
     #link {
-        flex-direction: column;
+/*         flex-direction: column; */
+        flex-wrap: wrap;
+        
     }
 }
 
