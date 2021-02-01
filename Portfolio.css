@@ -205,6 +205,15 @@ project-tile a:hover {
 
 }
 
+#cert {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
 
 
 /* Contact */
