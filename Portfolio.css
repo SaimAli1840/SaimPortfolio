@@ -205,15 +205,21 @@ project-tile a:hover {
 
 }
 
-#cert {
-    
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-    
+.certificates {
+    display: block;
 }
+
+#certif {
+    display: flex;
+}
+
+@media (max-width: 700px){
+    #certif {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 
